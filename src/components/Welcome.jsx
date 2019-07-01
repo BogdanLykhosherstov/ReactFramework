@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import logo from '../images/Logo.png';
 //shards
 import {Button} from 'shards-react'
@@ -16,7 +17,7 @@ class Welcome extends Component {
                 <img src={logo} alt=""/>
                 <h1>Welcome</h1>
                 <p>We are glad you are here</p>
-                <Button pill theme="warning">Enter</Button>
+                <Link to="/dashboard"><Button pill theme="warning">Enter</Button></Link>
             </div>
          );
     }
