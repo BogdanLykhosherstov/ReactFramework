@@ -1,0 +1,21 @@
+.welcome{
+  display: flex;
+  padding:2%;
+  margin: 8% auto;
+  flex-direction: column;
+  align-items: center;
+  h1{
+    color:#F28C20;
+    font-size: 70px;
+    
+  }
+  Button{
+    font-size:20px;
+    padding:15px 45px;
+    color:white;
+    &:hover{
+      color:white;
+    }
+  }
+
+}
