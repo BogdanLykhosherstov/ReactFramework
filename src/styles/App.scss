@@ -1,21 +1,81 @@
-.welcome{
+.welcome {
+
   display: flex;
-  padding:2%;
+  padding: 2%;
   margin: 8% auto;
   flex-direction: column;
   align-items: center;
-  h1{
-    color:#F28C20;
+
+  h1 {
+    color: #F28C20;
     font-size: 70px;
-    
+
   }
-  Button{
-    font-size:20px;
-    padding:15px 45px;
-    color:white;
-    &:hover{
-      color:white;
+
+  Button {
+    font-size: 20px;
+    padding: 15px 45px;
+    color: white;
+
+    &:hover {
+      color: white;
     }
   }
 
+}
+.nav{
+  flex-direction: column;
+}
+.filler{
+  display:flex;
+ 
+}
+.nav-bar {
+
+  justify-self: stretch;
+  background: #EEEEEE;
+  display: flex;
+  flex-direction: column;
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: #EEEEEE;
+    a{
+      text-decoration: none;
+      color:black;
+    }
+    li{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding:25px 25px;
+      border-bottom:1px solid white;
+      &:hover{
+        background-color: #e5e5e5;
+      }
+    }
+    li:first-child{
+      background:#F28C20;
+      color:white;
+      a{
+        color:white;
+      }
+    }
+  }
+}
+.dashboard{
+  
+  min-height: 100vh;
+  display:flex;
+  flex-direction: row;
+  .card{
+    margin:1%;
+    padding:2% 20%;
+    flex:1;
+    .cardTitle{
+      font-size: 50px;
+      padding-bottom: 2%;
+    }
+  }
 }

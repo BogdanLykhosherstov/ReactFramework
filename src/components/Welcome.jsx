@@ -15,8 +15,8 @@ class Welcome extends Component {
         return ( 
             <div className="welcome">
                 <img src={logo} alt=""/>
-                <h1>Welcome</h1>
-                <p>We are glad you are here</p>
+                <h1>Interlake</h1>
+                <p>Technology for Geo Spacial Data Mapping</p>
                 <Link to="/dashboard"><Button pill theme="warning">Enter</Button></Link>
             </div>
          );
